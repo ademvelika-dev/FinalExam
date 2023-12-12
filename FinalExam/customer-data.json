@@ -1,0 +1,20 @@
+[
+  {
+    "accountNumber": "ben",
+    "password": "1234",
+    "savingBalance": 2000,
+    "checkingBalance": 1000
+  },
+  {
+    "accountNumber": "john",
+    "password": "4321",
+    "savingBalance": 455,
+    "checkingBalance": 588
+  },
+  {
+    "accountNumber": "cay",
+    "password": "3343",
+    "savingBalance": 300,
+    "checkingBalance": 345
+  }
+]
