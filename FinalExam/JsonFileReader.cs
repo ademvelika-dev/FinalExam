@@ -10,13 +10,16 @@ namespace FinalExam
         /// </summary>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public static dynamic ReadCustomers()
+        public static List<Customer> ReadCustomers()
         {
             try
             {
                 string text = File.ReadAllText(@"./customer-data.json");
-                var data = JsonSerializer.Deserialize<dynamic>(text);
-                return data;
+ 
+                List<Customer> customer = JsonSerializer.Deserialize<List<Customer>>(text);
+
+                return customer;
+
             }
             catch(Exception e)
             {
